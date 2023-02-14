@@ -24,29 +24,29 @@ namespace Mission_6.Models
                 new AppRes
                 {
                     ApplicationID = 1,
-                    Category = "Action/Adventure",
-                    Title = "Thor Ragnarok",
-                    Year = 2017,
-                    Director = "Taika Waititi",
-                    Rating = "PG-13"
+                    Category = "Crime/Drama",
+                    Title = "Pulp Fiction",
+                    Year = 1994,
+                    Director = "Quentin Tarantino",
+                    Rating = "R"
                 },
                 new AppRes
                 {
                     ApplicationID = 2,
-                    Category = "Sci-Fi",
-                    Title = "Tenet",
-                    Year = 2020,
-                    Director = "Christopher Nolan",
-                    Rating = "PG-13"
+                    Category = "War/Action",
+                    Title = "Inglourious Basterds",
+                    Year = 2009,
+                    Director = "Quentin Tarantino",
+                    Rating = "R"
                 },
                 new AppRes
                 {
                     ApplicationID = 3,
-                    Category = "Comedy",
-                    Title = "The Lego Batman Movie",
-                    Year = 2017,
-                    Director = "Chris McKay",
-                    Rating = "PG"
+                    Category = "Western/Drama",
+                    Title = "The Hateful Eight",
+                    Year = 2015,
+                    Director = "Quentin Tarantino",
+                    Rating = "R"
                 }
             );
         }

@@ -29,17 +29,17 @@ namespace Mission_6.Migrations
             migrationBuilder.InsertData(
                 table: "Responses",
                 columns: new[] { "ApplicationID", "Category", "Director", "Edited", "LentTo", "Notes", "Rating", "Title", "Year" },
-                values: new object[] { 1, "Action/Adventure", "Taika Waititi", false, null, null, "PG-13", "Thor Ragnarok", 2017 });
+                values: new object[] { 1, "Crime/Drama", "Quentin Tarantino", false, null, null, "R", "Pulp Fiction", 1994 });
 
             migrationBuilder.InsertData(
                 table: "Responses",
                 columns: new[] { "ApplicationID", "Category", "Director", "Edited", "LentTo", "Notes", "Rating", "Title", "Year" },
-                values: new object[] { 2, "Sci-Fi", "Christopher Nolan", false, null, null, "PG-13", "Tenet", 2020 });
+                values: new object[] { 2, "War/Action", "Quentin Tarantino", false, null, null, "R", "Inglourious Basterds", 2009 });
 
             migrationBuilder.InsertData(
                 table: "Responses",
                 columns: new[] { "ApplicationID", "Category", "Director", "Edited", "LentTo", "Notes", "Rating", "Title", "Year" },
-                values: new object[] { 3, "Comedy", "Chris McKay", false, null, null, "PG", "The Lego Batman Movie", 2017 });
+                values: new object[] { 3, "Western/Drama", "Quentin Tarantino", false, null, null, "R", "The Hateful Eight", 2015 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
