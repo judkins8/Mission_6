@@ -1,4 +1,60 @@
 ﻿<Properties StartupConfiguration="{4546700A-FEB8-44FD-8227-74436BBDECEB}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission_6/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Mission_6/wwwroot/lib/jquery/dist/jquery.js" Line="23" Column="37" IsPinned="True" />
+      <File FileName="Mission_6/Migrations/MovieDatabaseContextModelSnapshot.cs" Line="82" Column="56" IsPinned="True" />
+      <File FileName="Mission_6/Controllers/HomeController.cs" Line="44" Column="45" />
+      <File FileName="Mission_6/Models/AppRes.cs" Line="9" Column="24" />
+      <File FileName="Mission_6/Models/ErrorViewModel.cs" Line="13" Column="1" />
+      <File FileName="Mission_6/Models/MovieDatabaseContext.cs" Line="44" Column="39" />
+      <File FileName="Mission_6/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Mission_6/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Mission_6/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Mission_6/Views/Home/MyPodcasts.cshtml" Line="4" Column="34" />
+      <File FileName="Mission_6/Views/Home/Movies.cshtml" Line="21" Column="48" />
+      <File FileName="Mission_6/Views/Home/Confirmation.cshtml" Line="5" Column="47" />
+      <File FileName="Mission_6/Views/Home/Index.cshtml" Line="5" Column="43" />
+      <File FileName="Mission_6/Views/Home/Privacy.cshtml" Line="8" Column="1" />
+      <File FileName="Mission_6/Views/Shared/Error.cshtml" Line="25" Column="5" />
+      <File FileName="Mission_6/Views/Shared/_ValidationScriptsPartial.cshtml" Line="4" Column="1" />
+      <File FileName="Mission_6/Views/Shared/_Layout.cshtml" Line="20" Column="8" />
+      <File FileName="Mission_6/wwwroot/css/site.css" Line="40" Column="2" />
+      <File FileName="Mission_6/wwwroot/js/site.js" Line="6" Column="1" />
+      <File FileName="Mission_6/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Mission_6/appsettings.json" Line="13" Column="2" />
+      <File FileName="Mission_6/Program.cs" Line="11" Column="2" />
+      <File FileName="Mission_6/Startup.cs" Line="28" Column="48" />
+      <File FileName="Mission_6/Migrations/20230214024757_Initial.cs" Line="52" Column="1" />
+      <File FileName="Mission_6/MovieDatabase.sqlite" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission_6" expanded="True">
+            <Node name="Mission_6" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Mission__6 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Mission__6 FirstBuild="True" />
 </Properties>

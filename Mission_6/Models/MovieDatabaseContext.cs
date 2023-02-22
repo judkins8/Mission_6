@@ -17,14 +17,24 @@ namespace Mission_6.Models
         }
 
         public DbSet<AppRes> Responses { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
+            mb.Entity<Category>().HasData(
+                    new Category { CategoryId = 1, CategoryName = "Action/Adventure" },
+                    new Category { CategoryId = 2, CategoryName = "Sci-Fi" },
+                    new Category { CategoryId = 3, CategoryName = "Comedy" },
+                    new Category { CategoryId = 4, CategoryName = "Romance" },
+                    new Category { CategoryId = 5, CategoryName = "Documentary" },
+                    new Category { CategoryId = 6, CategoryName = "Other" }
+                );
+
             mb.Entity<AppRes>().HasData(
                 new AppRes
                 {
                     ApplicationID = 1,
-                    Category = "Crime/Drama",
+                    CategoryId = 6,
                     Title = "Pulp Fiction",
                     Year = 1994,
                     Director = "Quentin Tarantino",
@@ -33,7 +43,7 @@ namespace Mission_6.Models
                 new AppRes
                 {
                     ApplicationID = 2,
-                    Category = "War/Action",
+                    CategoryId = 1,
                     Title = "Inglourious Basterds",
                     Year = 2009,
                     Director = "Quentin Tarantino",
@@ -42,7 +52,7 @@ namespace Mission_6.Models
                 new AppRes
                 {
                     ApplicationID = 3,
-                    Category = "Western/Drama",
+                    CategoryId = 6,
                     Title = "The Hateful Eight",
                     Year = 2015,
                     Director = "Quentin Tarantino",
